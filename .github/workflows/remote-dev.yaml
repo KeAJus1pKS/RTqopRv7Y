@@ -21,7 +21,7 @@ jobs:
         
 
     - name: ServicePage 
-      uses: docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc
+      uses: docker/build-push-action@9e436ba9f2d7bcd1d038c8e55d039d37896ddc5d
       with:
         context: client/webapp
         file: client/webapp/Dockerfile.development
